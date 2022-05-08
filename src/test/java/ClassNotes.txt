@@ -1,0 +1,21 @@
+
+What is Junit Assert?
+Assert is a method useful in determining Pass or Fail status of a test case,
+The assert methods are provided by the class org.junit.Assert which extends java.lang.Object class.
+There are various types of assertions like Boolean, Null, Identical etc.
+Junit provides a class named Assert, which provides a bunch of assertion methods useful in writing test cases
+and to detect test failure
+The assert methods are provided by the class org.junit.Assert which extends java.lang.Object class.
+
+org.junit
+Class Assert
+java.lang.Object
+  extended by org.junit.Assert
+public class Assert
+extends java.lang.Object
+A set of assertion methods useful for writing tests. Only failed assertions are recorded.
+These methods can be used directly: Assert.assertEquals(...), however, they read better if they are referenced
+through static import:
+ import static org.junit.Assert.*;
+    ...
+    assertEquals(...);
